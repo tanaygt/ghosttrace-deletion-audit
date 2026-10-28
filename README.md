@@ -43,7 +43,7 @@ If Mermaid is not supported by the viewer, the flow is: **requests + identity hi
 
 The core pipeline is local and deterministic. Optional model hooks can assist ambiguous intent or screenshot extraction, but models never control destructive actions, policy ordering, or the final schema.
 
-Download the [presentation-ready architecture graphic](docs/architecture.svg) for a portfolio post or project walkthrough.
+Download the [presentation-ready architecture graphic](docs/architecture.png) for a portfolio post or project walkthrough. The editable [SVG version](docs/architecture.svg) is also included.
 
 ## Run it with the official dataset
 
