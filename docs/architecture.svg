@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">GhostTrace deletion audit architecture</title>
+  <desc id="desc">Requests and evidence flow through identity resolution, temporal reconstruction, policy compilation, and validated findings, remediation, and verification output.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#16213d"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#65d9ff"/><stop offset="1" stop-color="#8b7cff"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000" flood-opacity=".25"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#7cc7e8"/></marker>
+  </defs>
+  <rect width="1600" height="900" rx="32" fill="url(#bg)"/>
+  <text x="90" y="100" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="700">GhostTrace</text>
+  <text x="90" y="148" fill="#a9b8d6" font-family="Segoe UI,Arial,sans-serif" font-size="24">Evidence-first deletion auditing for distributed customer data</text>
+  <rect x="90" y="190" width="1420" height="4" rx="2" fill="url(#accent)"/>
+
+  <g font-family="Segoe UI,Arial,sans-serif" filter="url(#shadow)">
+    <g transform="translate(90 270)"><rect width="280" height="150" rx="22" fill="#1e3159" stroke="#65d9ff" stroke-width="2"/><text x="28" y="58" fill="#65d9ff" font-size="20" font-weight="700">01</text><text x="28" y="96" fill="#fff" font-size="27" font-weight="600">Requests</text><text x="28" y="128" fill="#b8c7e2" font-size="17">Deletion intent + audit time</text></g>
+    <g transform="translate(440 270)"><rect width="280" height="150" rx="22" fill="#1e3159" stroke="#65d9ff" stroke-width="2"/><text x="28" y="58" fill="#65d9ff" font-size="20" font-weight="700">02</text><text x="28" y="96" fill="#fff" font-size="27" font-weight="600">Identity graph</text><text x="28" y="128" fill="#b8c7e2" font-size="17">Current + historical identifiers</text></g>
+    <g transform="translate(790 270)"><rect width="280" height="150" rx="22" fill="#1e3159" stroke="#65d9ff" stroke-width="2"/><text x="28" y="58" fill="#65d9ff" font-size="20" font-weight="700">03</text><text x="28" y="96" fill="#fff" font-size="27" font-weight="600">Evidence intake</text><text x="28" y="128" fill="#b8c7e2" font-size="17">CSV, JSON, SQL, logs, media</text></g>
+    <g transform="translate(1140 270)"><rect width="280" height="150" rx="22" fill="#1e3159" stroke="#65d9ff" stroke-width="2"/><text x="28" y="58" fill="#65d9ff" font-size="20" font-weight="700">04</text><text x="28" y="96" fill="#fff" font-size="27" font-weight="600">Temporal join</text><text x="28" y="128" fill="#b8c7e2" font-size="17">State at audit_at cutoff</text></g>
+
+    <g transform="translate(485 560)"><rect width="630" height="150" rx="22" fill="#26366b" stroke="#8b7cff" stroke-width="3"/><text x="35" y="58" fill="#b9aaff" font-size="20" font-weight="700">05</text><text x="35" y="98" fill="#fff" font-size="30" font-weight="600">Policy compiler</text><text x="35" y="130" fill="#cbd3ed" font-size="17">Deletion rules + retention + recreation risks</text></g>
+  </g>
+
+  <g stroke="#7cc7e8" stroke-width="4" fill="none" marker-end="url(#arrow)"><path d="M370 345 H430"/><path d="M720 345 H780"/><path d="M1070 345 H1130"/><path d="M1280 420 V500 H800 V550"/><path d="M930 420 V550"/></g>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="110" y="790" fill="#ffffff" font-size="24" font-weight="600">Output</text>
+    <text x="110" y="830" fill="#a9b8d6" font-size="20">Ordered findings • remediation steps • verification proof • validated output.csv</text>
+    <text x="1490" y="830" text-anchor="end" fill="#65d9ff" font-size="19">deterministic by default</text>
+  </g>
+</svg>
