@@ -51,13 +51,16 @@ I’d love feedback from people working in privacy engineering, distributed syst
 
 GhostTrace is like a detective for deleted customer data. It looks in every place where the data might still exist, checks old names and emails, finds systems that could recreate the data, and explains exactly what should happen next.
 
-## Recommended screenshots
+## Recommended LinkedIn carousel
 
-Attach two or three clean images:
+Upload these four images in order. They are designed as one consistent, human-readable story:
 
-1. **GitHub overview:** repository name, README title, and the `code/` and `docs/` folders visible. Crop out private paths and challenge data.
-2. **Project infographic:** use [`linkedin-infographic.png`](linkedin-infographic.png), showing the problem, solution, workflow, output states, and measured results.
-3. **Validation:** terminal output showing the 518-row run and validator pass. Do not show customer evidence, API keys, local usernames, or private trace files.
+1. [`linkedin-carousel-01.png`](linkedin-carousel-01.png) — the hook: why “deleted” is not the same as gone.
+2. [`linkedin-carousel-02.png`](linkedin-carousel-02.png) — where ghost data survives across a distributed system.
+3. [`linkedin-carousel-03.png`](linkedin-carousel-03.png) — the evidence-first workflow used by GhostTrace.
+4. [`linkedin-carousel-04.png`](linkedin-carousel-04.png) — output states, measured public-sample results, and deliverables.
+
+The images are generated from the project’s documented facts and contain no customer evidence, API keys, local usernames, or private trace files. If you prefer a single image, use [`linkedin-infographic.png`](linkedin-infographic.png).
 
 ## Short version
 
