@@ -22,22 +22,24 @@ The project treats deletion as a proof obligation, not a workflow status. A succ
 ## Architecture
 
 ```mermaid
-flowchart LR
-    A[Deletion requests] --> B[Intent and authorization]
-    I[Identity history] --> C[Identity graph]
-    E[CSV / JSON / SQL / logs / PDF / images] --> D[Evidence intake]
-    B --> F[Temporal join]
+graph LR
+    A["Deletion requests"] --> B["Intent and authorization"]
+    I["Identity history"] --> C["Identity graph"]
+    E["CSV, JSON, SQL, logs, PDF, images"] --> D["Evidence intake"]
+    B --> F["Temporal join"]
     C --> F
     D --> F
-    R[Deletion rules] --> G[Policy compiler]
+    R["Deletion rules"] --> G["Policy compiler"]
     F --> G
-    G --> H[Ordered findings]
-    G --> J[Remediation plan]
-    G --> K[Verification proof]
-    H --> L[Validated output.csv]
+    G --> H["Ordered findings"]
+    G --> J["Remediation plan"]
+    G --> K["Verification proof"]
+    H --> L["Validated output CSV"]
     J --> L
     K --> L
 ```
+
+If Mermaid is not supported by the viewer, the flow is: **requests + identity history + evidence + deletion rules → temporal evidence join → policy compiler → findings, remediation, and verification → validated output CSV**.
 
 The core pipeline is local and deterministic. Optional model hooks can assist ambiguous intent or screenshot extraction, but models never control destructive actions, policy ordering, or the final schema.
 
