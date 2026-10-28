@@ -56,7 +56,7 @@ GhostTrace is like a detective for deleted customer data. It looks in every plac
 Attach two or three clean images:
 
 1. **GitHub overview:** repository name, README title, and the `code/` and `docs/` folders visible. Crop out private paths and challenge data.
-2. **Architecture:** use [`architecture.png`](architecture.png), showing the simple flow from request → identity history → evidence → policy → verification.
+2. **Project infographic:** use [`linkedin-infographic.png`](linkedin-infographic.png), showing the problem, solution, workflow, output states, and measured results.
 3. **Validation:** terminal output showing the 518-row run and validator pass. Do not show customer evidence, API keys, local usernames, or private trace files.
 
 ## Short version
