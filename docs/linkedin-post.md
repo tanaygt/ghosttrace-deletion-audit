@@ -62,6 +62,15 @@ Upload these four images in order. They are designed as one consistent, human-re
 
 The images are generated from the project’s documented facts and contain no customer evidence, API keys, local usernames, or private trace files. If you prefer a single image, use [`linkedin-infographic.png`](linkedin-infographic.png).
 
+## Clean UI pair
+
+For a more product-focused post, use this two-image set instead:
+
+1. [`linkedin-ui-01.png`](linkedin-ui-01.png) — a mock audit console showing identity resolution, coverage, evidence findings, status, and required actions.
+2. [`linkedin-ui-02.png`](linkedin-ui-02.png) — the complete workflow from evidence intake to policy decision, verification, and deliverables.
+
+This pair is intentionally presented as a clean product concept, not as a claim that GhostTrace includes a web frontend. The current implementation is CLI-first.
+
 ## Short version
 
 Built GhostTrace, an evidence-first deletion audit agent for distributed customer data.
