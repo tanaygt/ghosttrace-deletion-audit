@@ -1,0 +1,25 @@
+# Challenge and submission artifacts
+dataset/
+problem_statement.md
+output.csv
+code.zip
+agent-trace/
+agent-trace.zip
+log.txt
+ai_chat_transcript.txt
+
+# Local runtime data
+__pycache__/
+*.py[cod]
+.runtime_fixture/
+tmp*/
+.venv/
+venv/
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

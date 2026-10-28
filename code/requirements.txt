@@ -1,0 +1,3 @@
+# Base agent runs on the Python standard library only.
+# Optional: uncomment for OpenAI-powered ambiguous intent and screenshot extraction.
+# openai>=1.100.0
