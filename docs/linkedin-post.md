@@ -71,6 +71,15 @@ For a more product-focused post, use this two-image set instead:
 
 This pair is intentionally presented as a clean product concept, not as a claim that GhostTrace includes a web frontend. The current implementation is CLI-first.
 
+## Recommended non-screenshot carousel
+
+If you do not want to use the UI concept images, use this engineering case-study pair:
+
+1. [`linkedin-case-study-01.png`](linkedin-case-study-01.png) — the deletion problem, hidden data surface, and what the agent investigates.
+2. [`linkedin-case-study-02.png`](linkedin-case-study-02.png) — the evidence-to-proof approach, output contract, and measured public-sample results.
+
+This is the most accurate presentation for the current project because it communicates the architecture and results without implying that a web dashboard has already been shipped.
+
 ## Short version
 
 Built GhostTrace, an evidence-first deletion audit agent for distributed customer data.
